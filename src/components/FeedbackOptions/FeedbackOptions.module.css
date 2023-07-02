@@ -1,0 +1,21 @@
+.ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.FeedbackButton {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+    padding: 30px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.FeedbackButton:active{
+    background-color:cornflowerblue;
+}
